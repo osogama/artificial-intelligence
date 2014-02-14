@@ -1,0 +1,171 @@
+$ python codes.py
+CYCLE 1
+
+Current WM:
+['cellwall', 'human', 'no']
+['feather', 'human', 'no']
+['warm', 'human']
+['animal', 'kingpenguin']
+['feather', 'kingpenguin', 'has']
+['fly', 'kingpenguin', 'not']
+['live', 'kingpenguin', 'Antarctic']
+['chlo', 'rose', 'has']
+
+Attempting to match rule 1
+Match succeeds
+Adding assertions to WM:
+[['animal', 'human']]
+
+Attempting to match rule 2
+Match succeeds
+Adding assertions to WM:
+[['plant', 'rose']]
+
+Attempting to match rule 3
+Match succeeds
+Adding assertions to WM:
+[['bird', 'kingpenguin']]
+
+Attempting to match rule 4
+Failing
+Attempting to match rule 5
+Failing
+Attempting to match rule 6
+Failing
+Attempting to match rule 7
+Failing
+Attempting to match rule 8
+Failing
+Attempting to match rule 9
+Failing
+Attempting to match rule 10
+Failing
+CYCLE 2
+
+Current WM:
+['cellwall', 'human', 'no']
+['feather', 'human', 'no']
+['warm', 'human']
+['animal', 'kingpenguin']
+['feather', 'kingpenguin', 'has']
+['fly', 'kingpenguin', 'not']
+['live', 'kingpenguin', 'Antarctic']
+['chlo', 'rose', 'has']
+['animal', 'human']
+['plant', 'rose']
+['bird', 'kingpenguin']
+
+Attempting to match rule 1
+Failing
+Attempting to match rule 2
+Failing
+Attempting to match rule 3
+Failing
+Attempting to match rule 4
+Match succeeds
+Adding assertions to WM:
+[['mammal', 'human']]
+
+Attempting to match rule 5
+Match succeeds
+Adding assertions to WM:
+[['wing', 'kingpenguin']]
+
+Attempting to match rule 6
+Failing
+Attempting to match rule 7
+Match succeeds
+Adding assertions to WM:
+[['penguin', 'kingpenguin']]
+
+Attempting to match rule 8
+Failing
+Attempting to match rule 9
+Failing
+Attempting to match rule 10
+Failing
+CYCLE 3
+
+Current WM:
+['cellwall', 'human', 'no']
+['feather', 'human', 'no']
+['warm', 'human']
+['animal', 'kingpenguin']
+['feather', 'kingpenguin', 'has']
+['fly', 'kingpenguin', 'not']
+['live', 'kingpenguin', 'Antarctic']
+['chlo', 'rose', 'has']
+['animal', 'human']
+['plant', 'rose']
+['bird', 'kingpenguin']
+['mammal', 'human']
+['wing', 'kingpenguin']
+['penguin', 'kingpenguin']
+
+Attempting to match rule 1
+Failing
+Attempting to match rule 2
+Failing
+Attempting to match rule 3
+Failing
+Attempting to match rule 4
+Failing
+Attempting to match rule 5
+Failing
+Attempting to match rule 6
+Failing
+Attempting to match rule 7
+Failing
+Attempting to match rule 8
+Failing
+Attempting to match rule 9
+Failing
+Attempting to match rule 10
+Match succeeds
+Adding assertions to WM:
+[['swim', 'kingpenguin', 'can']]
+
+CYCLE 4
+
+Current WM:
+['cellwall', 'human', 'no']
+['feather', 'human', 'no']
+['warm', 'human']
+['animal', 'kingpenguin']
+['feather', 'kingpenguin', 'has']
+['fly', 'kingpenguin', 'not']
+['live', 'kingpenguin', 'Antarctic']
+['chlo', 'rose', 'has']
+['animal', 'human']
+['plant', 'rose']
+['bird', 'kingpenguin']
+['mammal', 'human']
+['wing', 'kingpenguin']
+['penguin', 'kingpenguin']
+['swim', 'kingpenguin', 'can']
+
+Attempting to match rule 1
+Failing
+Attempting to match rule 2
+Failing
+Attempting to match rule 3
+Failing
+Attempting to match rule 4
+Failing
+Attempting to match rule 5
+Failing
+Attempting to match rule 6
+Failing
+Attempting to match rule 7
+Failing
+Attempting to match rule 8
+Failing
+Attempting to match rule 9
+Failing
+Attempting to match rule 10
+Failing
+NO CHANGES ON LAST CYCLE,HALTING
+
+Final Working Memory:
+[['cellwall', 'human', 'no'], ['feather', 'human', 'no'], ['warm', 'human'], ['animal', 'kingpenguin'], ['feather', 'kingpenguin', 'has'], ['fly', 'kingpenguin', 'not'], ['live', 'kingpenguin', 'Antarctic'], ['chlo', 'rose', 'has'], ['animal', 'human'], ['plant', 'rose'], ['bird', 'kingpenguin'], ['mammal', 'human'], ['wing', 'kingpenguin'], ['penguin', 'kingpenguin'], ['swim', 'kingpenguin', 'can']]
+SHERRYtekiMacBook-Pro:hw2 sherrychen$ 
